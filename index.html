@@ -6,23 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman!</title>
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/journal/bootstrap.min.css" rel="stylesheet" integrity="sha384-5bYMJO1P7tdABaKtvXuoX0R6JAQx/1sraUN51G34E9XYSxfwsAVkdum8Sbgg931T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
-<body >
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-sm-6">
-                <div class="card" id="winningImage">
-                   
+<body class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
+                <a class="navbar-brand" href="#"><h1>Guess Animal Name</h1></a>
+        </nav>
+        <div class="col-centered">
+            <div class="center-div"></div>
+                <div class="container text-center">
+                    <div class="row ">
+                        <div class="col">
+                            <div class="card" id="winningImage">
+
+                            </div>
+                        </div>
+                    <div class="col align-self-center">
+                        <h1 class="card" id= "gameText" >
+                           
+                        </h1>
                 </div>
             </div>
-        <div class="col-sm-6">
-            <div class="card" id= "gameText">
-              
-            </div>
-        </div>
-    </div>
+        </div> 
+   
         
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
